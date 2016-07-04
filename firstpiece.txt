@@ -1,0 +1,13 @@
+#define PrintEx(EX) cout<<#EX<<" :\n"<<EX<<endl
+
+if (pw->mWireIndex == 11)
+{
+int pseudonym = 0;
+pseudonym++;
+}
+
+clock_t ClockStart, ClockEnd;
+ClockStart = clock();
+...some function call ...
+ClockEnd = clock();
+cout << "opt Run time: " << (double)(ClockEnd - ClockStart) / CLOCKS_PER_SEC << "S" << endl;

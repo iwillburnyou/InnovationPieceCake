@@ -1,7 +1,0 @@
-#define PrintEx(EX) cout<<#EX<<" :\n"<<EX<<endl
-
-if (pw->mWireIndex == 11)
-{
-int pseudonym = 0;
-pseudonym++;
-}

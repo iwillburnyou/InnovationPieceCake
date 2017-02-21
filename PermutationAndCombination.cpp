@@ -15,7 +15,7 @@ using namespace std;
 //	for (int i = k; i < n; i++){
 //		swap(a[k], a[i]);
 //		Perm(k + 1, n, a , r);
-//		swap(a[i], a[k]);      //»ØËÝ
+//		swap(a[i], a[k]);      //back trace
 //
 //	}
 //
@@ -46,7 +46,7 @@ using namespace std;
 //	if (!visited[pos]){
 //		visited[pos] = true;
 //		dfs(pos + 1, cnt + 1, n, k, a);
-//		visited[pos] = false;    //»ØËÝ
+//		visited[pos] = false;    //back trace
 //
 //	}
 //	dfs(pos + 1, cnt, n, k, a);
@@ -77,7 +77,7 @@ using namespace std;
 //	if (!visited[pos]){
 //		visited[pos] = true;
 //		dfs(pos + 1, cnt + 1, n, k,  res);
-//		visited[pos] = false;    //»ØËÝ
+//		visited[pos] = false;    //back trace
 //
 //	}
 //	dfs(pos + 1, cnt, n, k,  res);

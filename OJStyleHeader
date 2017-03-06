@@ -6,7 +6,7 @@
 #include<algorithm>
 #include<fstream>
 using namespace std;
-
+#define PrintEx(EX) cout<<#EX<<" :\n"<<EX<<endl
 void main() {
 
 }

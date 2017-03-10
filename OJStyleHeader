@@ -5,6 +5,11 @@
 #include<iomanip>
 #include<algorithm>
 #include<fstream>
+#include <windows.h>
+#include<map>
+#include <random>
+#include <cmath>
+
 using namespace std;
 #define PrintEx(EX) cout<<#EX<<" :\n"<<EX<<endl
 void main() {

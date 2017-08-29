@@ -13,8 +13,19 @@
 #include <random>
 #include <cmath>
 #include<utility>
+#include<limits>
+#include<functional>
+#include<stack>
 using namespace std;
 #define PrintEx(EX) cout<<#EX<<" :\n"<<EX<<endl
+
+
+int main() {
+  
+	return 0;
+}
+
+/*
 int main() {
     std::random_device rd;  //Will be used to obtain a seed for the random number engine
     std::mt19937 gen(rd()); //Standard mersenne_twister_engine seeded with rd()
@@ -25,4 +36,25 @@ int main() {
         std::cout << dis(gen) << ' ';
     std::cout << '\n';
   return 0;
+}
+*/
+
+class s2 {
+	int n;
+public:
+	void init() {
+
+	}
+	void solve() {
+
+	}
+	void test(){
+		init();
+		solve();
+	}
+};
+int main() {
+	s2 s;
+	s.test();
+	return 0;
 }
